@@ -1,8 +1,7 @@
 import "@/styles/globals.css";
-import Navbar from "@/components/Navbar";
-import Hero from "@/Components/Hero";
+import Navbar from "@/Components/Navbar";
 import Services from "@/Components/Services";
-import Footer from "@/components/Footer";
+import Footer from "@/Components/Footer";
 import Projects from "@/Components/Projects";
 import Skills from "@/Components/Skills";
 import Home from "@/Components/Home";
