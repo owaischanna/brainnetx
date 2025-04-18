@@ -6,7 +6,7 @@ import Projects from "@/Components/Projects";
 import Skills from "@/Components/Skills";
 import Home from "@/Components/Home";
 import Contact from "@/Components/Contact";
-
+import Testimonial from "@/Components/Testimonial";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -14,10 +14,10 @@ export default function App({ Component, pageProps }) {
 
       <Navbar />       {/* Will appear on every page */}
       <Home/>
-      {/* <Hero/> */}
       <Projects/>
       <Skills/>
       <Services/>
+      <Testimonial/>
       <Contact/>
       
       <Footer />       {/* Will appear on every page */}
